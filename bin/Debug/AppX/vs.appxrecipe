@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RYAN-HOME</Machine>
+    <WindowsUser>spice</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>cd4b33cf-7bab-4941-902d-0cf4d0ba33f5</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>73498D8363ADD78EDF1A74054371E5FDF12E02C45249A2BE9593030737B46D08</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>cd4b33cf-7bab-4941-902d-0cf4d0ba33f5_0.12.0.0_neutral__79dbt6at3vfr2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>cd4b33cf-7bab-4941-902d-0cf4d0ba33f5_79dbt6at3vfr2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>cd4b33cf-7bab-4941-902d-0cf4d0ba33f5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=spice</RegisteredPackagePublisher>
+    <RegisteredVersion>0.12.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-18T02:15:06.952</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\.htaccess">
+      <PackagePath>.htaccess</PackagePath>
+      <Modified>2015-08-06T01:59:08.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\apple-touch-icon.png">
+      <PackagePath>apple-touch-icon.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\favicon.png">
+      <PackagePath>favicon.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\afro_head.png">
+      <PackagePath>images\character\afro_head.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\armsSki.png">
+      <PackagePath>images\character\armsSki.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\blue_head.png">
+      <PackagePath>images\character\blue_head.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\bshadow.png">
+      <PackagePath>images\character\bshadow.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\girl_head.png">
+      <PackagePath>images\character\girl_head.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\head1.png">
+      <PackagePath>images\character\head1.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\head2.png">
+      <PackagePath>images\character\head2.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\head3.png">
+      <PackagePath>images\character\head3.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\head4.png">
+      <PackagePath>images\character\head4.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\headlocked.png">
+      <PackagePath>images\character\headlocked.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\legsSki.png">
+      <PackagePath>images\character\legsSki.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\main_body.png">
+      <PackagePath>images\character\main_body.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\main_head.png">
+      <PackagePath>images\character\main_head.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\main_head_alt.png">
+      <PackagePath>images\character\main_head_alt.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\ski - Copy.png">
+      <PackagePath>images\character\ski - Copy.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\ski.png">
+      <PackagePath>images\character\ski.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\character\ski_head.png">
+      <PackagePath>images\character\ski_head.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\effect_snow_1.png">
+      <PackagePath>images\effects\snow\effect_snow_1.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\effect_snow_2.png">
+      <PackagePath>images\effects\snow\effect_snow_2.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\effect_snow_3.png">
+      <PackagePath>images\effects\snow\effect_snow_3.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\effect_snow_4.png">
+      <PackagePath>images\effects\snow\effect_snow_4.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\effect_snow_5.png">
+      <PackagePath>images\effects\snow\effect_snow_5.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\effect_snow_6.png">
+      <PackagePath>images\effects\snow\effect_snow_6.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\effect_snow_7.png">
+      <PackagePath>images\effects\snow\effect_snow_7.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\effect_snow_8.png">
+      <PackagePath>images\effects\snow\effect_snow_8.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\sc - Copy.png">
+      <PackagePath>images\effects\snow\sc - Copy.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\sc.png">
+      <PackagePath>images\effects\snow\sc.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\sc2.png">
+      <PackagePath>images\effects\snow\sc2.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\sl.png">
+      <PackagePath>images\effects\snow\sl.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\sr.png">
+      <PackagePath>images\effects\snow\sr.png</PackagePath>
+      <Modified>2015-08-06T01:59:08.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\arcade-logo.png">
+      <PackagePath>images\interface\arcade-logo.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\back.png">
+      <PackagePath>images\interface\back.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\blackbox.png">
+      <PackagePath>images\interface\blackbox.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\classic-logo.png">
+      <PackagePath>images\interface\classic-logo.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\gameplay\board_black.png">
+      <PackagePath>images\interface\gameplay\board_black.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\gameplay\board_cheese.png">
+      <PackagePath>images\interface\gameplay\board_cheese.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\gameplay\board_default.png">
+      <PackagePath>images\interface\gameplay\board_default.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\gameplay\board_flame.png">
+      <PackagePath>images\interface\gameplay\board_flame.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\gameplay\board_insanity.png">
+      <PackagePath>images\interface\gameplay\board_insanity.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\gameplay\board_jack - Copy.png">
+      <PackagePath>images\interface\gameplay\board_jack - Copy.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\gameplay\board_jack.png">
+      <PackagePath>images\interface\gameplay\board_jack.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\gameplay\board_light.png">
+      <PackagePath>images\interface\gameplay\board_light.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\gameplay\board_pie.png">
+      <PackagePath>images\interface\gameplay\board_pie.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\gameplay\board_suit.png">
+      <PackagePath>images\interface\gameplay\board_suit.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\gameplay\board_white.png">
+      <PackagePath>images\interface\gameplay\board_white.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\iconoffline.png">
+      <PackagePath>images\interface\iconoffline.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\iconp.png">
+      <PackagePath>images\interface\iconp.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\iconvolume.png">
+      <PackagePath>images\interface\iconvolume.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\iconx.png">
+      <PackagePath>images\interface\iconx.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\play.png">
+      <PackagePath>images\interface\play.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\score\score_0.png">
+      <PackagePath>images\interface\score\score_0.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\score\score_1.png">
+      <PackagePath>images\interface\score\score_1.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\score\score_2.png">
+      <PackagePath>images\interface\score\score_2.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\score\score_3.png">
+      <PackagePath>images\interface\score\score_3.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\score\score_4.png">
+      <PackagePath>images\interface\score\score_4.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\score\score_5.png">
+      <PackagePath>images\interface\score\score_5.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\score\score_6.png">
+      <PackagePath>images\interface\score\score_6.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\score\score_7.png">
+      <PackagePath>images\interface\score\score_7.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\score\score_8.png">
+      <PackagePath>images\interface\score\score_8.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\score\score_9.png">
+      <PackagePath>images\interface\score\score_9.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\star.png">
+      <PackagePath>images\interface\star.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\yourscore.png">
+      <PackagePath>images\interface\yourscore.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\intro\background.png">
+      <PackagePath>images\intro\background.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\intro\begin.png">
+      <PackagePath>images\intro\begin.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\intro\glow.png">
+      <PackagePath>images\intro\glow.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\intro\ryanspice.png">
+      <PackagePath>images\intro\ryanspice.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\intro\spicejsicon.png">
+      <PackagePath>images\intro\spicejsicon.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\intro\spicejsicons.png">
+      <PackagePath>images\intro\spicejsicons.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\intro\SplashScreen.png">
+      <PackagePath>images\intro\SplashScreen.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-06-05T02:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2015-06-05T02:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2015-06-05T02:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2015-06-05T02:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2015-06-05T02:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <Modified>2015-06-05T02:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\textures\main_mountian.png">
+      <PackagePath>images\textures\main_mountian.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\textures\main_mountianl.png">
+      <PackagePath>images\textures\main_mountianl.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\textures\main_snow.png">
+      <PackagePath>images\textures\main_snow.png</PackagePath>
+      <Modified>2015-08-16T08:39:31.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2015-06-05T02:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\tile-wide.png">
+      <PackagePath>tile-wide.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\tile.png">
+      <PackagePath>tile.png</PackagePath>
+      <Modified>2015-08-06T01:59:09.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\audio\BenTinson-AmbientElectroHouse1.mp3">
+      <PackagePath>audio\BenTinson-AmbientElectroHouse1.mp3</PackagePath>
+      <Modified>2015-08-06T01:59:08.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\browserconfig.xml">
+      <PackagePath>browserconfig.xml</PackagePath>
+      <Modified>2015-08-06T01:59:08.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\css\main.css">
+      <PackagePath>css\main.css</PackagePath>
+      <Modified>2015-08-06T01:59:08.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\css\normalize.css">
+      <PackagePath>css\normalize.css</PackagePath>
+      <Modified>2015-08-06T01:59:08.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\css\normalize.min.css">
+      <PackagePath>css\normalize.min.css</PackagePath>
+      <Modified>2015-08-06T01:59:08.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2015-06-05T02:32:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+      <Modified>2015-06-24T03:36:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+      <Modified>2015-06-24T03:36:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-08-06T01:22:59.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2015-08-16T03:12:42.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\favicon.ico">
+      <PackagePath>favicon.ico</PackagePath>
+      <Modified>2015-08-06T01:59:08.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\effects\snow\Thumbs.db">
+      <PackagePath>images\effects\snow\Thumbs.db</PackagePath>
+      <Modified>2015-08-06T01:59:09.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\images\interface\score\Thumbs.db">
+      <PackagePath>images\interface\score\Thumbs.db</PackagePath>
+      <Modified>2015-08-06T01:59:09.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\audio.js">
+      <PackagePath>js\audio.js</PackagePath>
+      <Modified>2015-08-13T02:53:55.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-08-13T03:51:47.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\game.js">
+      <PackagePath>js\game.js</PackagePath>
+      <Modified>2015-08-17T02:05:53.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\intro.js">
+      <PackagePath>js\intro.js</PackagePath>
+      <Modified>2015-08-06T01:59:09.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\loading.js">
+      <PackagePath>js\loading.js</PackagePath>
+      <Modified>2015-08-06T01:59:09.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2015-08-16T08:17:02.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\options.js">
+      <PackagePath>js\options.js</PackagePath>
+      <Modified>2015-08-09T18:15:08.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\particles.js">
+      <PackagePath>js\particles.js</PackagePath>
+      <Modified>2015-08-16T09:15:06.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\player.js">
+      <PackagePath>js\player.js</PackagePath>
+      <Modified>2015-08-18T02:16:01.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\spice-input.js">
+      <PackagePath>js\spice-input.js</PackagePath>
+      <Modified>2015-08-13T03:55:55.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\spice.js">
+      <PackagePath>js\spice.js</PackagePath>
+      <Modified>2015-08-16T03:13:05.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\ui\characterselect.js">
+      <PackagePath>js\ui\characterselect.js</PackagePath>
+      <Modified>2015-08-06T01:59:09.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\ui\gameover.js">
+      <PackagePath>js\ui\gameover.js</PackagePath>
+      <Modified>2015-08-06T01:59:09.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\ui\statusico.js">
+      <PackagePath>js\ui\statusico.js</PackagePath>
+      <Modified>2015-08-06T01:59:09.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\js\vendor\modernizr-2.8.3.min.js">
+      <PackagePath>js\vendor\modernizr-2.8.3.min.js</PackagePath>
+      <Modified>2015-08-06T01:59:09.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+      <Modified>2015-06-05T02:32:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+      <Modified>2015-06-24T03:36:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+      <Modified>2015-06-24T03:36:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\README.md">
+      <PackagePath>README.md</PackagePath>
+      <Modified>2015-08-06T01:59:09.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\robots.txt">
+      <PackagePath>robots.txt</PackagePath>
+      <Modified>2015-08-06T01:59:09.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\Snow.sln">
+      <PackagePath>Snow.sln</PackagePath>
+      <Modified>2015-08-06T01:23:05.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+      <Modified>2015-06-05T02:32:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-08-18T02:15:06.690</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

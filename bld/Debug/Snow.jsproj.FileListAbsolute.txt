@@ -1,0 +1,16 @@
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bin\Debug\AppxManifest.xml
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bin\Debug\Snow.build.appxrecipe
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\ResourceHandlingTask.state
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\priconfig.xml
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\priconfig.xml.intermediate
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\layout.resfiles
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\layout.resfiles.intermediate
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\resources.resfiles
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\resources.resfiles.intermediate
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\pri.resfiles
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\pri.resfiles.intermediate
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\qualifiers.txt
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\qualifiers.txt.intermediate
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bld\Debug\ProjectArchitectures.txt
+C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Snow\bin\Debug\ReverseMap\resources.pri

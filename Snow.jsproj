@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+      <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+      <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+      <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>cd4b33cf-7bab-4941-902d-0cf4d0ba33f5</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0'">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>Snow_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>C:\Users\spice\OneDrive\SharedSnow\Universal_Snow\Bin\</AppxPackageDir>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include=".htaccess" />
+    <Content Include="apple-touch-icon.png" />
+    <Content Include="audio\BenTinson-AmbientElectroHouse1.mp3" />
+    <Content Include="browserconfig.xml" />
+    <Content Include="css\main.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\normalize.min.css" />
+    <Content Include="default.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="favicon.png" />
+    <Content Include="images\character\afro_head.png" />
+    <Content Include="images\character\armsSki.png" />
+    <Content Include="images\character\blue_head.png" />
+    <Content Include="images\character\bshadow.png" />
+    <Content Include="images\character\girl_head.png" />
+    <Content Include="images\character\head1.png" />
+    <Content Include="images\character\head2.png" />
+    <Content Include="images\character\head3.png" />
+    <Content Include="images\character\head4.png" />
+    <Content Include="images\character\headlocked.png" />
+    <Content Include="images\character\legsSki.png" />
+    <Content Include="images\character\main_body.png" />
+    <Content Include="images\character\main_head.png" />
+    <Content Include="images\character\main_head_alt.png" />
+    <Content Include="images\character\ski - Copy.png" />
+    <Content Include="images\character\ski.png" />
+    <Content Include="images\character\ski_head.png" />
+    <Content Include="images\effects\snow\effect_snow_1.png" />
+    <Content Include="images\effects\snow\effect_snow_2.png" />
+    <Content Include="images\effects\snow\effect_snow_3.png" />
+    <Content Include="images\effects\snow\effect_snow_4.png" />
+    <Content Include="images\effects\snow\effect_snow_5.png" />
+    <Content Include="images\effects\snow\effect_snow_6.png" />
+    <Content Include="images\effects\snow\effect_snow_7.png" />
+    <Content Include="images\effects\snow\effect_snow_8.png" />
+    <Content Include="images\effects\snow\sc - Copy.png" />
+    <Content Include="images\effects\snow\sc.png" />
+    <Content Include="images\effects\snow\sc2.png" />
+    <Content Include="images\effects\snow\sl.png" />
+    <Content Include="images\effects\snow\sr.png" />
+    <Content Include="images\effects\snow\Thumbs.db" />
+    <Content Include="images\interface\arcade-logo.png" />
+    <Content Include="images\interface\back.png" />
+    <Content Include="images\interface\blackbox.png" />
+    <Content Include="images\interface\classic-logo.png" />
+    <Content Include="images\interface\gameplay\board_black.png" />
+    <Content Include="images\interface\gameplay\board_cheese.png" />
+    <Content Include="images\interface\gameplay\board_default.png" />
+    <Content Include="images\interface\gameplay\board_flame.png" />
+    <Content Include="images\interface\gameplay\board_insanity.png" />
+    <Content Include="images\interface\gameplay\board_jack - Copy.png" />
+    <Content Include="images\interface\gameplay\board_jack.png" />
+    <Content Include="images\interface\gameplay\board_light.png" />
+    <Content Include="images\interface\gameplay\board_pie.png" />
+    <Content Include="images\interface\gameplay\board_suit.png" />
+    <Content Include="images\interface\gameplay\board_white.png" />
+    <Content Include="images\interface\iconoffline.png" />
+    <Content Include="images\interface\iconp.png" />
+    <Content Include="images\interface\iconvolume.png" />
+    <Content Include="images\interface\iconx.png" />
+    <Content Include="images\interface\play.png" />
+    <Content Include="images\interface\score\score_0.png" />
+    <Content Include="images\interface\score\score_1.png" />
+    <Content Include="images\interface\score\score_2.png" />
+    <Content Include="images\interface\score\score_3.png" />
+    <Content Include="images\interface\score\score_4.png" />
+    <Content Include="images\interface\score\score_5.png" />
+    <Content Include="images\interface\score\score_6.png" />
+    <Content Include="images\interface\score\score_7.png" />
+    <Content Include="images\interface\score\score_8.png" />
+    <Content Include="images\interface\score\score_9.png" />
+    <Content Include="images\interface\score\Thumbs.db" />
+    <Content Include="images\interface\star.png" />
+    <Content Include="images\interface\yourscore.png" />
+    <Content Include="images\intro\background.png" />
+    <Content Include="images\intro\begin.png" />
+    <Content Include="images\intro\glow.png" />
+    <Content Include="images\intro\ryanspice.png" />
+    <Content Include="images\intro\spicejsicon.png" />
+    <Content Include="images\intro\spicejsicons.png" />
+    <Content Include="images\intro\SplashScreen.png" />
+    <Content Include="images\LockScreenLogo.scale-200.png" />
+    <Content Include="images\SplashScreen.scale-200.png" />
+    <Content Include="images\Square150x150Logo.scale-200.png" />
+    <Content Include="images\Square44x44Logo.scale-200.png" />
+    <Content Include="images\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="images\StoreLogo.png" />
+    <Content Include="images\textures\main_mountian.png" />
+    <Content Include="images\textures\main_mountianl.png" />
+    <Content Include="images\textures\main_snow.png" />
+    <Content Include="images\Wide310x150Logo.scale-200.png" />
+    <Content Include="index.html" />
+    <Content Include="js\audio.js" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+    <Content Include="js\game.js" />
+    <Content Include="js\intro.js" />
+    <Content Include="js\loading.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\options.js" />
+    <Content Include="js\particles.js" />
+    <Content Include="js\player.js" />
+    <Content Include="js\spice-input.js" />
+    <Content Include="js\spice.js" />
+    <Content Include="js\ui\characterselect.js" />
+    <Content Include="js\ui\gameover.js" />
+    <Content Include="js\ui\statusico.js" />
+    <Content Include="js\vendor\modernizr-2.8.3.min.js" />
+    <Content Include="README.md" />
+    <Content Include="robots.txt" />
+    <Content Include="Snow.sln" />
+    <Content Include="tile-wide.png" />
+    <Content Include="tile.png" />
+    <Content Include="WinJS\css\ui-dark.css" />
+    <Content Include="WinJS\css\ui-light.css" />
+    <Content Include="WinJS\fonts\Symbols.ttf" />
+    <Content Include="WinJS\js\en-US\ui.strings.js" />
+    <Content Include="WinJS\js\base.js" />
+    <Content Include="WinJS\js\ui.js" />
+    <None Include="Snow_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="cs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
