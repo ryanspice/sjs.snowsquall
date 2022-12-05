@@ -107,7 +107,7 @@ Intro.prototype = {
 	},
 	update:function(){
 		
-		for(var i = 0; i<3; i++){
+		for(var i = 0; i<2; i++){
 		this.loading.update();
 		this.statusicons.update();
 		
