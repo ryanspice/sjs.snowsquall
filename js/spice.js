@@ -2,7 +2,7 @@
 
 	SpiceJS
 		Created By: Ryan Tyler Spice-Finnie
-		
+
 */
 
 /* jslint node: true */
@@ -244,8 +244,8 @@ var SpiceJS = Object.create({
 						}
 						if (isObj)
 							prototype = ret;
-						
-						
+
+
 						return ret;
 					}
 				},
@@ -358,11 +358,11 @@ var SpiceJS = Object.create({
 					},
 
 					msFlags:{
-					
+
 						msZoom:false,
-						
+
 					},
-					
+
 					flags:{						//Feature Flags
 						canvas:true,
 						mstouch:true,
@@ -875,11 +875,11 @@ var SpiceJS = Object.create({
 											this.metaAppend(this.metaTag("viewport","width=device-width, user-scalable=no"));
 											//if (this.devicedpi)
 											this.metaAppend(this.metaTag("viewport","target-densitydpi="+this.app.client.setWidth+",-webkit-min-device-pixel-ratio=1,min-resolution:="+this.app.client.setWidth+",-moz-device-pixel-ratio=1"));
-										
+
 											this.metaAppend(this.metaTag("viewport","user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"));
 
 											this.app.ext.metatag = this;
-										
+
 											//Return this
 											return this;
 										}
@@ -1384,20 +1384,20 @@ return;
 
 								//ScrollWheel Event
 								event:function(evt,delta) {
-									
+
 									if (this.app.options.get("seamless"))
                                     this.app.input.scroll.a = true;
-                                    
+
 									if (this.app.options.get("seamless"))
 										evt.preventDefault();
-                                    
+
 									this.app.input.wheelDelta = evt.wheelDelta;
 
 									var doc = document.documentElement;
 									var left = (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
 									var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
-                                    
-                                    
+
+
                                     //Flip for horizontal scrolling
                                     if (this.reverse)
                                     {
@@ -1415,22 +1415,22 @@ return;
 									//App.ext.scroll.active = false;
 								},
                                 up:function(){
-                                    
+
                                     var transitionSpeed = 1;
-                                    
+
                                     if (this.target.x>this.x)
                                         this.x+=this.app.client.Math.Clamp(Math.floor((this.target.x-this.x)*(transitionSpeed)),1,100),this.a=true;
-                                    
+
                                     if (this.target.x<this.x)
                                         this.x-=this.app.client.Math.Clamp(Math.floor((this.x-this.target.x)*(transitionSpeed)),1,100),this.a=true;
-                                    
+
 										this.x = this.app.client.Math.Clamp(this.x,0,window.innerWidth*3);
 										this.target.x = this.app.client.Math.Clamp(this.target.x,0,window.innerWidth*3);
-									
+
                                     //if (this.a)
 									this.window.scrollTo(this.x,this.y),this.a = false;
                                     log(this.x,this.y);
-                                    
+
                                 },
 								//Update the position for smooth scrolling
 								update:function(x,y){
@@ -1440,7 +1440,7 @@ return;
 									/* DEACTIVATE IF CONFUSED */
 									if (!this.active)
 										return;
-									
+
 									var LD = Math.round(-this.x+this.target.x)/10;
 									var YD = Math.round(-this.y+this.target.y)/10;
 
@@ -1514,7 +1514,7 @@ return;
 								var input = evt.target.app.input;
 
 								//Save Latest X/Y or 0
-								
+
 								input.x = input.start.x = evt.x || evt.clientX || evt.pageX;
 								input.y = input.start.y = evt.y || evt.clientY || evt.pageY;
 
@@ -1536,7 +1536,7 @@ return;
 							},
 
 							//input move fill
-							
+
 							mouse_last:0,
 							move:function(evt){
 
@@ -1545,27 +1545,27 @@ return;
 
 								evt = evt || input || {clientX:null,clientY:null};
 
-								var mouse_last = this.mouse_last; 
+								var mouse_last = this.mouse_last;
 								//sET PRESS
 								input.press = true;
 								input.x = evt.clientX || evt.x || evt.pageX;
 								input.y = evt.clientY || evt.y || evt.pageY;
 								input.dist.x = (input.x-input.start.x)*evt.target.app.getScale();
 								input.dist.y = (input.y-input.start.y)*evt.target.app.getScale();
-								
-								
+
+
 	//		console.log(this.mouse_last-input.dist.x);
-								
+
 								if (input.dist.x>0)
 									if (this.mouse_last>input.dist.x)
 										input.start.x = input.x, input.dist.x = 0;
-								
+
 								if (input.dist.x<0)
 									if (this.mouse_last<input.dist.x)
 										input.start.x = input.x, input.dist.x = 0;
-								
+
 								this.mouse_last =  input.dist.x;
-								
+
 							},
 
 							up:function(evt) {
@@ -1603,19 +1603,19 @@ return;
 
 							touch:function(evt){
 							//	var input = touch.target.app.input;
-								
-								
+
+
 								//console.log(input,touch);
 								try {
 								var input = evt.target.app.input || evt;
 								} catch (e){
-									var input = evt; console.log(evt);								
+									var input = evt; console.log(evt);
 								};
 								input.touch = true;
-								
+
 								input.x = evt.clientX || evt.x || evt.pageX;
 								input.y = evt.clientY || evt.y || evt.pageY;
-								
+
 								input.pos = {x:0,y:0};
 								input.pos.x = evt.pageX||evt.clientX;
 								input.pos.y = evt.pageY||evt.clientY;
@@ -2144,7 +2144,7 @@ return;
 								//Build
 								(this.update.state = Object.create(this.update.state.prototype,this.update.state.constructor(this))).init(this.main);
 
-								
+
 								}
 							}
 
@@ -2703,6 +2703,7 @@ return;
 									}
 							},
 							update:function() {
+								try {
 								if (typeof this.sound === 'object')
 									if (this.sound[this.current].paused)
 										this.sound[this.current].play();
@@ -2718,7 +2719,10 @@ return;
 
 									this.sound[this.current].currentTime = 0;
 									this.sound[this.current].play();
+								}}catch(e){
+									
 								}
+
 							}
 						},
 						constructor:function(){return {
@@ -2827,48 +2831,48 @@ return;
 							Sprite:{},
 							sprite:{},
 							img:{},
-							
+
 							load:function(name,file){
-								
+
 								if (typeof file==="undefined")
 									file =  this.app.options.get("paths").images+""+name;
-								
+
 								this.Sources.append(this.SpriteAppend(name,file));
-								
+
 								return this.Sources.getByName(name);
-								
+
 							},
-							
+
 							SpriteCreate:function(file,src,name){
-								
+
 								this.SpriteLoadNumber++;
-								
+
 								this.SpriteLoadTime += (10*this.app.delta_speed)*this.SpriteLoadNumber;
-								
+
 								return this.sprite = Object.create(this.Sprite,{file:{value:file},src:{value:src},name:{value:name}});
-								
+
 							},
-							
+
 							SpriteAppend:function(name,file){
-								
+
 								return (this.img = this.SpriteCreate(file,this.path + file + ".png",name)).get();
-								
+
 							},
-							
+
 							SpriteUnload:function(name,file){
-								
+
 								delete this.Sources.getByName(name);
 								//return this.SpriteLoad(name,file);
-								
+
 							},
-							
+
 							webLoad:function(name,address){
-								
+
 								this.SpriteWebItems[name] = new Image();
-								
+
 								this.SpriteWebItems[name].src = address;
 								return this.SpriteWebItems[name];
-								
+
 							},
 							graphicsLibrary:function(){
 								this.Sprite = Object.create(null);
@@ -3046,14 +3050,14 @@ return;
 
 
 							//Used to batch draw all sprites to the screen
-								// 
-							
+								//
+
 							flip:function(){
 
 								this.fillStyle = (this.app.canvas.canvas.style.background=="transparent");
-								
-								
-								
+
+
+
 								//this.buffer_context.save();
 								//Set scale to client scale
 								this.scale = this.app.client.scale;
@@ -3483,7 +3487,7 @@ return;
 								this.stat = this.chk(x,y,w,h,s,a,c,colour);
 								this.buffer_context.translate(this.stat.x,this.stat.y);
 								this.buffer_context.rotate(angle*0.0174532925);
-								
+
 								if (!this.stat.w)
 									return
 								if (!this.stat.h)
@@ -3538,12 +3542,12 @@ return;
 								//(this.stat.c)?this.buffer_context.drawImage(image,this.stat.x-Math.floor(this.stat.w/2),this.stat.y-Math.floor(this.stat.h/2),this.stat.w,this.stat.h):this.buffer_context.drawImage(image,this.stat.x,this.stat.y,this.stat.w,this.stat.h);
 							},
 							image_replacecol:function(image,x,y,s,a,c,colour){
-								
+
 								this.stat = this.chk(x,y,image.width,image.height,s,a,c);
-								
+
 								var is = new Image();
 								is.src = image;
-								
+
 								function getBase64Image(img) {
 											// Create an empty canvas element
 											var canvas = document.createElement("canvas");
@@ -3580,8 +3584,8 @@ return;
 
 								ctx.putImageData(imageData,0,0);
 								image.src = c.toDataURL('image/png');
-								
-								
+
+
 								(this.stat.c)?this.buffer_context.drawImage(image,this.stat.x-Math.floor(this.stat.w/2),this.stat.y-Math.floor(this.stat.h/2),this.stat.w,this.stat.h):this.buffer_context.drawImage(image,this.stat.x,this.stat.y,this.stat.w,this.stat.h);
 							},
 							image_ext:function(image,x,y,s,a,c){
@@ -3647,7 +3651,7 @@ return;
 							},
 
 							texture:function(texture,xx,yy,w,h,yoff,xoff,xonly,xo,yo,s){
-								
+
 								var yoff = yoff||0;
 								var yo = yo||0;
 								var xo = xo||0;
@@ -3657,19 +3661,19 @@ return;
 								var height = h;
 
 								var s = s;
-								
-								
+
+
 								xo*=s;
 								yo*=s;
-								
-								
+
+
 								var bh = img.height;
 								var img_width = img.width;
 								var img_height = img.height;
 
 								var img_width_scaled = +img_width*s;
 								var img_height_scaled =+img_height*s;
-								
+
 								var offy = yy;
 								var offx = xx;
 
@@ -3679,16 +3683,16 @@ return;
 
 
 								var bx =  -width*s/2+(offx/s+(width*s))%img_width_scaled-img_width_scaled;
-								
+
 								var span_width = (width+img_width)*s+img_width_scaled;
 								var span_height = (height+bh)*s+img_height_scaled;
-								
-								
-								
+
+
+
 								if (xonly)
 									span_width = 0;
-								
-								
+
+
 								if (xonly)
 								{
 									var x = (bx-(width*s)/2)-s*bx/img_width;
@@ -3697,13 +3701,13 @@ return;
 									{
 										var y = (-by+height*s)+s*by/bh;
 
-									
+
 								if (!xonly)
 										this.image_ext(img,xo+x,yo+y,s,1,true);
 								if (xonly)
 										this.image_scaled(img,xo+x,yo+y,s,1,true);
 
-									
+
 									}
 								}
 								else
@@ -3724,9 +3728,9 @@ return;
 								}
 
 							},
-							
-							
-							
+
+
+
 							setBleed:function(threshold){
 								this.bleed = threshold;
 							},
@@ -3898,85 +3902,85 @@ return;
 								this.stat2 = this.chk(x2,y2,1,1,1,a,true,col);
 								this.buffer_context.beginPath();
 								this.buffer_context.quadraticCurveTo(this.stat.x, this.stat.y, this.stat2.x, this.stat2.y);
-								this.buffer_context.strokeStyle = col;	
+								this.buffer_context.strokeStyle = col;
 								this.buffer_context.stroke();
 								this.buffer_context.fill();
 								this.stat = this.chk(x,y,1,1,1,a,true,t);
 								this.stat2 = this.chk(x2,y2,1,1,1,a,true,t);
-								
+
 								this.buffer_context.strokeStyle = t;
 								this.buffer_context.fillStyle = tF;
 							},
-							
+
 							/* visuals.paths */
-							
+
 							paths:{
-							
-								
+
+
 								//list of paths
 								_initalized:false
 								,_count:false
-								
+
 								//Reinitalize the objects functions,
 								//Required for use
-								
+
 								,init:function(visuals){
-									
+
 									this.list = [];
-									
+
 									this.visuals = visuals;
-									
+
 									this._initalized = true;
-									
+
 									this._count = 0;
-									
+
 									return this;
-									
+
 								}
-								
+
 								,list:[]
-								
+
 								,render:function(path){
-									
+
 									var list = path.list;
 									var length = path.list.length;
 									var i = 0;
-									
-									
+
+
 									for(i=0;i<=length-1;i++)
 										this.visuals.rect(list[i].x,list[i].y,1,1,"#FFFFFF");
-									
+
 									return true;
 								}
-								
+
 								,addPath:function(id,tempX,tempY){
 									var path =  {name:id,x:tempX,y:tempY};
 									path.addPoint = this.addPoint;
 									path.list = [];
 									path.p = this;
 									//console.log(path);
-									
-									
+
+
 									var t = this.list.push(path);
 									 t.p = this;
 									return this.list[this._count++];
 								}
-								
+
 								,addPoint:function(tempX,tempY){
-									
+
 									(this.list.push({x:this.x+tempX,y:this.y+tempY}));
-									
+
 								}
-								
+
 							}
-							
-							
-							
-							
-							
-							
-							
-							
+
+
+
+
+
+
+
+
 							,circle:function(x,y,r,col,a){
 								this.stat = this.chk(x,y,1,1,r,a,true,col);
 								this.buffer_context.beginPath();
@@ -4013,7 +4017,7 @@ return;
 								}
 							}
 						}
-					}, 
+					},
 			}
 		},
 	},
