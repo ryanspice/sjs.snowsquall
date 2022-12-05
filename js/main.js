@@ -8,7 +8,7 @@ Application.OnLoad = function (self) {
 	
 	self.Init("Example SpiceJS", 320, 720);
 
-	self.canvas.setBackground("#000000");
+	self.canvas.setBackground("#FFFFFF");
 
 	self.ext.metatag.metaFavicon("favicon.png");
 
@@ -20,9 +20,9 @@ Application.main= {
 
 	init:function() {
 
-		this.state = 1;
+		this.state = 0;
 		
-		this.app.client.visuals.setBleed(0.6);
+	//	this.app.client.visuals.setBleed(0.9);
 		
 		this.states = {menu:0,game:1};
 		
