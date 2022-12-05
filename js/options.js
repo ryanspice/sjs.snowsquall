@@ -1,0 +1,1 @@
+var SB_PATHS = {data:'js/',images:"img/",url:''};
